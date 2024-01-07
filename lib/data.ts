@@ -12,40 +12,39 @@ export const skillsData = [
     "Next.js",
     "Node.js",
     "Git",
+    "Jenkins",
     "Tailwind",
     "Prisma",
     "MongoDB",
     "Redux",
     "GraphQL",
     "Apollo",
-    "Express",
     "PostgreSQL",
-    "Python",
-    "Django",
     "Framer Motion",
+    "Laravel"
 ] as const;
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "PetConnect",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: "",
+            "Projet en cours en collaboration avec Graig Kolodziejczyk et Yann Le Coz. Ce projet à pour but de créer une application regroupant plusieurs services pour le bien être et la santé animale.",
+        tags: ["Next.js", "GraphQL", "Tailwind", "Prisma", "NestJS", "SwiftUI", "Flutter", "Android", "Jetpack Compose"],
+        imageUrl: "https://i.imgur.com/ul79l8a.png",
     },
     {
-        title: "rmtDev",
+        title: "Gestidogs",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: "",
+            "Gestidogs est un projet de gestion de centre éducatif canin réalisé en collaboration avec Dorian Français, Yann Le Coz et Corentin Garnier",
+        tags: ["React", "TypeScript", "Next.js", "Tailwind", "NestJS", "SwiftUI"],
+        imageUrl: "https://i.imgur.com/LQovxRt.jpg",
     },
     {
-        title: "Word Analytics",
+        title: "Your PC Parts",
         description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: "",
+            "Projet en cours. Ce projet aura pour but de proposer une API REST ouverte à tous sur les composants informatiques ainsi qu'un configurateur de PC",
+        tags: ["Next.js", "NestJS", "Tailwind", "Framer", "Prisma", "PostgreSQL"],
+        imageUrl: "https://i.imgur.com/ifu6M56.png",
     },
 ] as const;
 
