@@ -72,7 +72,7 @@ export default function Intro() {
                     animate={{ opacity: 1, y: 0 }}
                 >
                     <span className="font-bold">Bonjour, je suis Mathieu.</span> Je suis{" "}
-                    <span className="font-bold">développeur web et mobile</span>. J'aime développer des {" "}
+                    <span className="font-bold">développeur web et mobile</span>. J&apos;aime développer des {" "}
                     <span className="italic"> application web et mobiles</span>. {" "}
                     <span className="underline">React (Next.js), Flutter et SwiftUI/UIKit</span>.
                 </motion.h1>
