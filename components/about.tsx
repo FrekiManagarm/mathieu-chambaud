@@ -21,7 +21,7 @@ export default function About() {
             <p className="mb-3">
                 Récemment diplômé d&apos;un{" "}
                 <span className="font-medium">Master 2 en Développement web et mobile ainsi qu&apos;un Titre RNCP de Niveau 7</span>. Passioné par
-                la technologie et l&apos;innovation, j&apos;ai acquis une expertise en développement d&apos;applications web et mobiles{" "}
+                la technologie et l&apos;innovation et un désir insatiable d'apprendre, j&apos;ai acquis une expertise en développement d&apos;applications web et mobiles{" "}
                 <span className="font-medium">Ma motivation ?</span>{" "}
                 <span className="italic">Transformer des idées innovantes</span> en solutions concrètes. 
                 Je suis à la recherche active <span className="font-medium">d&apos;un poste en CDI</span> en tant que développeur web ou mobile 

@@ -19,7 +19,7 @@ export default function Intro() {
         <section
             ref={ref}
             id="home"
-            className="flex flex-row-reverse items-center mb-28 max-w-[75rem] pt-20 text-start sm:mb-0 scroll-mt-[100rem]"
+            className="flex lg:flex-row-reverse flex-col items-center mb-28 max-w-[75rem] lg:pt-20 text-start sm:mb-0 scroll-mt-[100rem]"
         >
             <div className="flex items-center justify-center">
                 <div className="relative">
@@ -40,8 +40,8 @@ export default function Intro() {
                             <Image
                                 src="https://i.imgur.com/mu73rN0.jpg"
                                 alt="Ricardo portrait"
-                                width={1500}
-                                height={1500}
+                                width={1000}
+                                height={1000}
                                 quality="95"
                                 priority={true}
                                 className="rounded-full object-cover border-[0.35rem] border-white shadow-xl"

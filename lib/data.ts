@@ -4,25 +4,18 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 export const skillsData = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
     "React/Next.js",
-    "SwiftUI/UIKit",
-    "Node.js",
-    "Git",
-    "Flutter",
-    "Jenkins",
-    "Tailwind",
+    "Node.js/NestJS",
+    "Laravel",
     "Prisma",
-    "MongoDB",
     "GraphQL",
-    "Apollo",
+    "Flutter",
+    "SwiftUI/UIKit",
     "PostgreSQL",
-    "Framer Motion",
+    "MongoDB",
     "MySQL",
-    "Laravel"
+    "Git",
+    "Jenkins"
 ] as const;
 
 export const projectsData = [

@@ -33,7 +33,7 @@ export default function Contact() {
                 once: true,
             }}
         >
-            <SectionHeading>Contactez moi</SectionHeading>
+            <SectionHeading>Contact</SectionHeading>
 
             <p className="text-gray-700 -mt-6 dark:text-white/80">
                 Contactez moi directement via{" "}
