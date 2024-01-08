@@ -7,7 +7,7 @@ export default function Footer() {
         &copy; 2024 Mathieu Chambaud. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold">A propos de ce site:</span> fait avec
+        <span className="font-semibold">A propos de ce site:</span> réalisé avec
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
         Framer Motion, React Email & Resend, hébergement sur Vercel.
       </p>

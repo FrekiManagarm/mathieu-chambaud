@@ -12,7 +12,7 @@ import { useActiveSectionContext } from "@/context/active-section-context"
 import { Tilt } from 'react-tilt'
 
 export default function Intro() {
-    const { ref } = useSectionInView("Home", 0.5)
+    const { ref } = useSectionInView("Accueil", 0.5)
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
 
     return (
@@ -48,20 +48,6 @@ export default function Intro() {
                             />
                         </motion.div>
                     </Tilt>
-
-                    <motion.span
-                        className="absolute bottom-0 right-0 text-4xl"
-                        initial={{ opacity: 0, scale: 0 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{
-                            type: "spring",
-                            stiffness: 125,
-                            delay: 0.1,
-                            duration: 0.7,
-                        }}
-                    >
-                        👋
-                    </motion.span>
                 </div>
             </div>
 
@@ -71,8 +57,8 @@ export default function Intro() {
                     initial={{ opacity: 0, y: 100 }}
                     animate={{ opacity: 1, y: 0 }}
                 >
-                    <span className="font-bold">Bonjour, je suis Mathieu.</span> Je suis{" "}
-                    <span className="font-bold">développeur web et mobile</span>. J&apos;aime développer des {" "}
+                    <span className="font-bold">Bonjour, je suis Mathieu 👋.</span>{" "}
+                    <span className="font-bold">Développeur web et mobile</span>. J&apos;aime développer des {" "}
                     <span className="italic"> application web et mobiles</span>. {" "}
                     <span className="underline">React (Next.js), Flutter et SwiftUI/UIKit</span>.
                 </motion.h1>

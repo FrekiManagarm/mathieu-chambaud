@@ -6,7 +6,7 @@ import { useSectionInView } from '@/lib/hooks';
 import { motion } from 'framer-motion';
 
 export default function About() {
-    const { ref } = useSectionInView("About")
+    const { ref } = useSectionInView("A propos")
 
     return (
         <motion.section
@@ -19,30 +19,19 @@ export default function About() {
         >
             <SectionHeading>A propos</SectionHeading>
             <p className="mb-3">
-                After graduating with a degree in{" "}
-                <span className="font-medium">Accounting</span>, I decided to pursue my
-                passion for programming. I enrolled in a coding bootcamp and learned{" "}
-                <span className="font-medium">full-stack web development</span>.{" "}
-                <span className="italic">My favorite part of programming</span> is the
-                problem-solving aspect. I <span className="underline">love</span> the
-                feeling of finally figuring out a solution to a problem. My core stack
-                is{" "}
-                <span className="font-medium">
-                    React, Next.js, Node.js, and MongoDB
-                </span>
-                . I am also familiar with TypeScript and Prisma. I am always looking to
-                learn new technologies. I am currently looking for a{" "}
-                <span className="font-medium">full-time position</span> as a software
-                developer.
+                Récemment diplômé d'un{" "}
+                <span className="font-medium">Master 2 en Développement web et mobile ainsi qu'un Titre RNCP de Niveau 7</span>. Passioné par
+                la technologie et l'innovation, j'ai acquis une expertise en développement d'applications web et mobiles{" "}
+                <span className="font-medium">Ma motivation ?</span>{" "}
+                <span className="italic">Transformer des idées innovantes</span> en solutions concrètes. 
+                Je suis à la recherche active <span className="font-medium">d'un poste en CDI</span> en tant que développeur web ou mobile 
+                dans une entreprise dynamique où je pourrais mettre mes compétences et ma créativité au service de projets impactants.
             </p>
 
             <p>
-                <span className="italic">When I&apos;m not coding</span>, I enjoy playing
-                video games, watching movies, and playing with my dog. I also enjoy{" "}
-                <span className="font-medium">learning new things</span>. I am currently
-                learning about{" "}
-                <span className="font-medium">history and philosophy</span>. I&apos;m also
-                learning how to play the guitar.
+                <span className="italic">En ce qui concerne mes hobbies</span>, j'adore la pop-culture (Star Wars, Marvel, DC Comics, etc ...), jouer aux jeux vidéos, faire de la veille technologique. 
+                J'aime aussi beaucoup{" "} <span className="font-medium">apprendre de nouvelles choses</span>. 
+                J&apos;aime également faire du vélo de route et du sport en général.
             </p>
         </motion.section>
     )

@@ -8,19 +8,20 @@ export const skillsData = [
     "CSS",
     "JavaScript",
     "TypeScript",
-    "React",
-    "Next.js",
+    "React/Next.js",
+    "SwiftUI/UIKit",
     "Node.js",
     "Git",
+    "Flutter",
     "Jenkins",
     "Tailwind",
     "Prisma",
     "MongoDB",
-    "Redux",
     "GraphQL",
     "Apollo",
     "PostgreSQL",
     "Framer Motion",
+    "MySQL",
     "Laravel"
 ] as const;
 
@@ -28,8 +29,8 @@ export const projectsData = [
     {
         title: "PetConnect",
         description:
-            "Projet en cours en collaboration avec Graig Kolodziejczyk et Yann Le Coz. Ce projet à pour but de créer une application regroupant plusieurs services pour le bien être et la santé animale.",
-        tags: ["Next.js", "GraphQL", "Tailwind", "Prisma", "NestJS", "SwiftUI", "Flutter", "Android", "Jetpack Compose"],
+            "Projet en cours. En collaboration avec Graig Kolodziejczyk et Yann Le Coz. Ce projet à pour but de créer une application regroupant plusieurs services pour le bien être et la santé animale.",
+        tags: ["Next.js", "GraphQL", "Tailwind", "NestJS", "Flutter"],
         imageUrl: "https://i.imgur.com/ul79l8a.png",
     },
     {
@@ -50,50 +51,50 @@ export const projectsData = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
+        title: "Développeur Web Full-Stack (Apprentissage)",
+        location: "Kweezine, Bordeaux, France",
         description:
             "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
         icon: React.createElement(LuGraduationCap),
-        date: "2019",
+        date: "sept 2020 - sept 2022",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
+        title: "Développeur Mobile (Apprentissage)",
+        location: "Niji, Bordeaux, France",
         description:
             "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+        icon: React.createElement(LuGraduationCap),
+        date: "sept 2022 - sept 2023",
     },
     {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
+        title: "Développeur Web",
+        location: "Quietam Studio, Bordeaux, France",
         description:
             "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
+        icon: React.createElement(CgWorkAlt),
+        date: "oct 2023 - janv 2024",
     },
 ] as const;
 
 export const links = [
     {
-      name: "Home",
+      name: "Accueil",
       hash: "#home",
     },
     {
-      name: "About",
+      name: "A propos",
       hash: "#about",
     },
     {
-      name: "Projects",
+      name: "Projets",
       hash: "#projects",
     },
     {
-      name: "Skills",
+      name: "Compétences",
       hash: "#skills",
     },
     {
-      name: "Experience",
+      name: "Expérience",
       hash: "#experience",
     },
     {
