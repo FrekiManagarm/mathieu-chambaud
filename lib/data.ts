@@ -47,7 +47,7 @@ export const experiencesData = [
         title: "Développeur Web",
         location: "Quietam Studio, Bordeaux, France",
         description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+            "Intégration Front-end en Flutter. \nAutomatisation de mise en production avec Jenkins. Rédaction d'analyses pour une transition en Clean Architecture sur le projet Shifoomi. Réalisation d'un catalogue de produit sur Flutter Flow et liaison avec une base de données. Refonte graphique et fonctionnelle d'un outil de génération de QCM assisté par IA.",
         icon: React.createElement(CgWorkAlt),
         date: "oct 2023 - janv 2024",
     },
@@ -55,7 +55,7 @@ export const experiencesData = [
         title: "Développeur Mobile (Apprentissage)",
         location: "Niji, Bordeaux, France",
         description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+            "Développement d'une application de chat en direct avec ChatGPT et d'un module d'interprétation vocal. Mise à jour des dépendances d'une application Android pour le Paris Dakar. Ajout d'un module de mise à jour forcée sur le socle Android de Niji. Édition de POCs de Flutter Mobile vers Flutter Web",
         icon: React.createElement(LuGraduationCap),
         date: "sept 2022 - sept 2023",
     },
@@ -63,7 +63,7 @@ export const experiencesData = [
         title: "Développeur Web Full-Stack (Apprentissage)",
         location: "Kweezine, Bordeaux, France",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+            "Back-end : Conception de base de données. Conception et développement d'une API REST avec Laravel. Frontend : Conception et développement Frontend avec les technologies React/NextJS. Mise en place du moteur de recherche Algolia. Optimisation SEO avec les outils de NextJS",
         icon: React.createElement(LuGraduationCap),
         date: "sept 2020 - sept 2022",
     }
