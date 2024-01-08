@@ -44,12 +44,12 @@ export const projectsData = [
 
 export const experiencesData = [
     {
-        title: "Développeur Web Full-Stack (Apprentissage)",
-        location: "Kweezine, Bordeaux, France",
+        title: "Développeur Web",
+        location: "Quietam Studio, Bordeaux, France",
         description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-        icon: React.createElement(LuGraduationCap),
-        date: "sept 2020 - sept 2022",
+            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+        icon: React.createElement(CgWorkAlt),
+        date: "oct 2023 - janv 2024",
     },
     {
         title: "Développeur Mobile (Apprentissage)",
@@ -60,13 +60,13 @@ export const experiencesData = [
         date: "sept 2022 - sept 2023",
     },
     {
-        title: "Développeur Web",
-        location: "Quietam Studio, Bordeaux, France",
+        title: "Développeur Web Full-Stack (Apprentissage)",
+        location: "Kweezine, Bordeaux, France",
         description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(CgWorkAlt),
-        date: "oct 2023 - janv 2024",
-    },
+            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+        icon: React.createElement(LuGraduationCap),
+        date: "sept 2020 - sept 2022",
+    }
 ] as const;
 
 export const links = [
