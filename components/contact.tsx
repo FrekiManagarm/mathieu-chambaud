@@ -1,15 +1,19 @@
 "use client";
 
-import React from "react";
+import React, { useRef } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Contact() {
     const { ref } = useSectionInView("Contact");
+    const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+    const formRef = useRef<HTMLFormElement>(null);
 
     return (
         <motion.section
@@ -40,6 +44,7 @@ export default function Contact() {
             </p>
 
             <form
+                ref={formRef}
                 className="mt-10 flex flex-col dark:text-black"
                 action={async (formData) => {
                     const { data, error } = await sendEmail(formData);
@@ -50,6 +55,8 @@ export default function Contact() {
                     }
 
                     toast.success("Email envoyé !");
+                    formRef.current?.reset()
+                    setTimeOfLastClick(Date.now())
                 }}
             >
                 <input
