@@ -30,7 +30,7 @@ export const projectsData = [
         title: "PetConnect",
         description:
             "Projet en cours. En collaboration avec Graig Kolodziejczyk et Yann Le Coz. Ce projet à pour but de créer une application regroupant plusieurs services pour le bien être et la santé animale.",
-        tags: ["Next.js", "GraphQL", "Tailwind", "NestJS", "Flutter"],
+        tags: ["Next.js", "GraphQL", "Tailwind", "NestJS", "Flutter", "PostgreSQL"],
         imageUrl: "https://i.imgur.com/ul79l8a.png",
     },
     {
