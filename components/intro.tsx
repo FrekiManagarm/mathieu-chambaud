@@ -80,7 +80,7 @@ export default function Intro() {
                             setTimeOfLastClick(Date.now());
                         }}
                     >
-                        Contact me here{" "}
+                        Contactez moi{" "}
                         <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                     </Link>
 
@@ -89,7 +89,7 @@ export default function Intro() {
                         href="/mathieu_chambaud_cv.pdf"
                         download
                     >
-                        Download CV{" "}
+                        Télécharger CV{" "}
                         <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
                     </a>
 
