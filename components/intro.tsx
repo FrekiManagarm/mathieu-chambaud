@@ -24,10 +24,11 @@ export default function Intro() {
             <div className="flex items-center justify-center">
                 <div className="relative">
                     <Tilt
-                        style={{
-                            width: 500,
-                            height: 500,
-                        }}
+                        // style={{
+                        //     width: 500,
+                        //     height: 500,
+                        // }}
+                        className="lg:h-[500px] lg:w-[500px] w-[20rem] h-[20rem]"
                     >
                         <motion.div
                             initial={{ opacity: 0, scale: 0 }}
@@ -39,7 +40,7 @@ export default function Intro() {
                         >
                             <Image
                                 src="https://i.imgur.com/mu73rN0.jpg"
-                                alt="Ricardo portrait"
+                                alt="Mathieu portrait"
                                 width={1000}
                                 height={1000}
                                 quality="95"
