@@ -19,15 +19,11 @@ export default function Intro() {
         <section
             ref={ref}
             id="home"
-            className="flex lg:flex-row-reverse flex-col items-center mb-28 max-w-[75rem] lg:pt-20 text-start sm:mb-0 scroll-mt-[100rem]"
+            className="flex lg:flex-row-reverse flex-col items-center mb-28 max-w-[75rem] lg:pt-20 pt-5 text-start sm:mb-0 scroll-mt-[100rem]"
         >
             <div className="flex items-center justify-center">
                 <div className="relative">
                     <Tilt
-                        // style={{
-                        //     width: 500,
-                        //     height: 500,
-                        // }}
                         className="lg:h-[500px] lg:w-[500px] w-[20rem] h-[20rem]"
                     >
                         <motion.div
@@ -39,11 +35,11 @@ export default function Intro() {
                             }}
                         >
                             <Image
-                                src="https://i.imgur.com/mu73rN0.jpg"
+                                src="https://avatars.githubusercontent.com/u/43409975?v=4"
                                 alt="Mathieu portrait"
                                 width={1000}
                                 height={1000}
-                                quality="95"
+                                quality={100}
                                 priority={true}
                                 className="rounded-full object-cover border-[0.35rem] border-white shadow-xl"
                             />
@@ -54,14 +50,13 @@ export default function Intro() {
 
             <div>
                 <motion.h1
-                    className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+                    className="mb-10 mt-4 px-4 font-medium !leading-[1.5] sm:text-4xl"
                     initial={{ opacity: 0, y: 100 }}
                     animate={{ opacity: 1, y: 0 }}
                 >
-                    <span className="font-bold">Bonjour, je suis Mathieu 👋.</span>{" "}
-                    <span className="font-bold">Développeur web et mobile</span>. J&apos;aime développer des {" "}
-                    <span className="italic"> application web et mobiles</span>. {" "}
-                    <span className="underline">React (Next.js), Flutter et SwiftUI/UIKit</span>.
+                    <span className="font-bold text-[3rem]">Bonjour, je suis Mathieu 👋.</span>{" "}
+                    <span className="font-bold text-[3rem]">Développeur web et mobile.</span><br/>
+                    <span className="underline text-[2rem]">React (Next.js), Flutter et SwiftUI/UIKit</span>.
                 </motion.h1>
 
                 <motion.div
