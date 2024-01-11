@@ -101,10 +101,10 @@ export default function Project({
                                 <p className='font-semibold'>Technologies</p>
                             </div>
                             <div className='flex flex-row gap-3'>
-                                {tags.map((tag) => {
+                                {tags.map((tag, index) => {
                                     const Icon = tag
                                     return (
-                                        <Icon className="w-10 h-10 fill-black dark:fill-white" />
+                                        <Icon key={index} className="w-10 h-10 fill-black dark:fill-white" />
                                     )
                                 })}
                             </div>

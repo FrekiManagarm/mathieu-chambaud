@@ -22,9 +22,9 @@ export default function Experience() {
         <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
             <SectionHeading>Mes expériences</SectionHeading>
             <VerticalTimeline lineColor="" animate={true}>
-                {experiencesData.map((item) => {
+                {experiencesData.map((item, index) => {
                     return (
-                        <ExperienceItem date={item.date} description={item.description} icon={item.icon} location={item.location} logo={item.logo} skills={item.skills} tasks={item.tasks} title={item.title} />
+                        <ExperienceItem key={index} date={item.date} description={item.description} icon={item.icon} location={item.location} logo={item.logo} skills={item.skills} tasks={item.tasks} title={item.title} />
                     )
                 })}
             </VerticalTimeline>

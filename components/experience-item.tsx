@@ -86,8 +86,8 @@ export default function ExperienceItem({
 
                                     <ul className="bg-gray-100 rounded-lg p-2 dark:bg-gray-800">
                                         <p className="font-semibold">Tâches</p>
-                                        {tasks.map((task) => (
-                                            <li className="py-2"> - {task}</li>
+                                        {tasks.map((task, index) => (
+                                            <li key={index} className="py-2"> - {task}</li>
                                         ))}
                                     </ul>
                                     <ul className='flex flex-wrap pt-2 mt-4 gap-2 sm:mt-auto'>
