@@ -112,8 +112,8 @@ export default function Project({
                                 <p className='font-semibold'>Contributeurs</p>
                             </div>
                             <motion.div className='flex flex-row gap-2'>
-                                {authors.map((author) => (
-                                    <a href={author.linkedin} target='_blank' className='bg-gray-200 shadow-md p-1 rounded-full flex flex-row w-50 justify-around items-center'>
+                                {authors.map((author, index) => (
+                                    <a key={index} href={author.linkedin} target='_blank' className='bg-gray-200 shadow-md p-1 rounded-full flex flex-row w-50 justify-around items-center'>
                                         <Image
                                             src={author.avatarUrl}
                                             width={50}

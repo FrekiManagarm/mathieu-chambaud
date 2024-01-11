@@ -44,7 +44,7 @@ export const skillsData = [
         name: 'Jenkins',
         icon: SiJenkins
     }
-] as const;
+];
 
 export const projectsData = [
     {
@@ -117,9 +117,9 @@ export const projectsData = [
         tags: [SiNextdotjs, SiNestjs, SiPostgresql],
         imageUrl: "https://i.imgur.com/ifu6M56.png",
     },
-] as const;
+];
 
-export const experiencesData = [
+export var experiencesData = [
     {
         title: "Développeur Web",
         location: "Quietam Studio, Bordeaux, France",
@@ -181,7 +181,7 @@ export const experiencesData = [
         icon: React.createElement(LuGraduationCap),
         date: "sept 2020 - sept 2022",
     }
-] as const;
+];
 
 export const links = [
     {
@@ -208,4 +208,4 @@ export const links = [
         name: "Contact",
         hash: "#contact",
     },
-] as const;
+];
