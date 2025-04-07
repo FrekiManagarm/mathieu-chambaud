@@ -10,6 +10,7 @@ import { Meta, ScrollRestoration, useLoaderData } from "@remix-run/react";
 import { Links } from "@remix-run/react";
 import { LiveReload, Outlet, Scripts } from "@remix-run/react";
 import { LoaderFunctionArgs } from "@remix-run/node";
+import "./tailwind.css";
 
 export async function loader({ request }: LoaderFunctionArgs) {
   const { getTheme } = await themeSessionResolver(request);
@@ -31,7 +32,7 @@ export function App() {
   const data = useLoaderData<typeof loader>();
   const [theme] = useTheme();
   return (
-    <html lang="en" className={clsx(theme)}>
+    <html lang="fr" className={clsx(theme)}>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

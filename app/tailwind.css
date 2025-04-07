@@ -11,7 +11,11 @@ body {
   }
 }
 
-
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 w-full max-w-7xl;
+  }
+}
 
 @layer base {
   :root {
@@ -85,8 +89,6 @@ body {
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
@@ -94,4 +96,58 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Animations personnalisées */
+@keyframes pulse-x {
+  0%,
+  100% {
+    transform: translateX(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateX(3px);
+    opacity: 1;
+  }
+}
+.animate-pulse-x {
+  animation: pulse-x 1s infinite;
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.orbit-circle {
+  animation: orbit 20s linear infinite;
+}
+
+@keyframes specialty-fade {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  20%,
+  80% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  0%,
+  10% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  90%,
+  100% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+}
+.specialty-text {
+  animation: specialty-fade 3s ease-in-out;
 }
