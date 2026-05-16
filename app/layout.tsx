@@ -1,19 +1,11 @@
 import type { Metadata } from "next";
-import { Fraunces, Syne, JetBrains_Mono } from "next/font/google";
+import { JetBrains_Mono, Outfit } from "next/font/google";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const outfit = Outfit({
   subsets: ["latin"],
-  weight: ["300", "400", "700", "900"],
-  style: ["normal", "italic"],
-  variable: "--font-fraunces",
-  display: "swap",
-});
-
-const syne = Syne({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-syne",
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-outfit",
   display: "swap",
 });
 
@@ -25,16 +17,23 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mathieu Chambaud — AI Engineer | Lead Developer",
+  title: "Mathieu Chambaud - AI Engineer & Lead Developer",
   description:
-    "AI Engineer & Lead Developer basé à Bordeaux. Spécialisé en agents IA, automatisation métier et développement full-stack (Next.js, React Native, Flutter, Python). 5 ans d'expérience.",
+    "Portfolio de Mathieu Chambaud, AI Engineer et Lead Developer a Bordeaux. Projets IA, SaaS, mobile terrain et automatisation metier.",
   keywords: [
-    "AI Engineer", "Lead Developer", "TypeScript", "Next.js",
-    "React Native", "Flutter", "Mastra AI", "agents IA", "Bordeaux",
+    "AI Engineer",
+    "Lead Developer",
+    "TypeScript",
+    "Next.js",
+    "React Native",
+    "Flutter",
+    "Mastra AI",
+    "agents IA",
+    "Bordeaux",
   ],
   openGraph: {
-    title: "Mathieu Chambaud — AI Engineer | Lead Developer",
-    description: "AI Engineer & Lead Developer spécialisé en agents IA. Bordeaux, France.",
+    title: "Mathieu Chambaud - AI Engineer & Lead Developer",
+    description: "Portfolio IA, SaaS et produits full-stack. Bordeaux, France.",
     locale: "fr_FR",
     type: "website",
   },
@@ -44,7 +43,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html
       lang="fr"
-      className={`${fraunces.variable} ${syne.variable} ${jetbrains.variable} antialiased`}
+      className={`${outfit.variable} ${jetbrains.variable} antialiased`}
     >
       <body>{children}</body>
     </html>
